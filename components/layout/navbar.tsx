@@ -32,7 +32,7 @@ export function Navbar() {
     <>
       <header
         className={cn(
-          "fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[calc(100%-2rem)] max-w-5xl transition-all duration-500 ease-[cubic-bezier(0.32,0.72,0,1)]",
+          "fixed top-4 left-1/2 -translate-x-1/2 z-50 w-[calc(100%-2rem)] max-w-5xl transition-all duration-500 ease-premium",
           isScrolled
             ? "top-2"
             : "top-4"

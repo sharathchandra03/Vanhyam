@@ -127,6 +127,9 @@ const config: Config = {
         "22": "5.5rem",
         "30": "7.5rem",
       },
+      transitionTimingFunction: {
+        "premium": "cubic-bezier(0.32, 0.72, 0, 1)",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
